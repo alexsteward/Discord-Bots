@@ -22,6 +22,8 @@ To develop a functioning and user-friendly Discord bot that helps improve the us
 
 ## Steps
 
+*Note: This is setup using Visual Studio Code*
+
 __1. Setup Environment__
 
 ![image](https://github.com/user-attachments/assets/5393a831-ed29-444f-8d65-9c3becbdf67a)
