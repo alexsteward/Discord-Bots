@@ -24,7 +24,8 @@ To develop a functioning and user-friendly Discord bot that helps improve the us
 
 1. Setup Environment
 
-*This screenshot shows the setup of the development environment, including the installation of Node.js, setting up a new project directory, and initializing it with npm init.*
+![image](https://github.com/user-attachments/assets/5393a831-ed29-444f-8d65-9c3becbdf67a)
+
 
 2. Install Dependencies
 
