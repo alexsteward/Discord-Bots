@@ -22,25 +22,27 @@ To develop a functioning and user-friendly Discord bot that helps improve the us
 
 ## Steps
 
-1. Setup Environment
+__1. Setup Environment__
 
 ![image](https://github.com/user-attachments/assets/5393a831-ed29-444f-8d65-9c3becbdf67a)
 
 
-2. Install Dependencies
+__2. Install Dependencies__
 
 ![image](https://github.com/user-attachments/assets/3102ba5a-fedf-47f1-bbe9-e598fc3f62fe)
 
 *Note: dotenv is an additional dependency installed if needed*
 
-3. Code the Bot
+__3. Code the Bot__
 
-*Shows the code editor with the main bot script. This includes setting up the bot client, defining commands, and handling events like messageCreate.*
+![image](https://github.com/user-attachments/assets/f11990b3-1415-493b-916a-daad0399f8ff)
+![image](https://github.com/user-attachments/assets/0e11a510-d805-493e-8167-bdb1d7a1c49b)
 
-4. Test the Bot
+
+__4. Test the Bot__
 
 *Illustrates the bot running in a test Discord server. Demonstrates testing various commands and interactions to ensure they work as expected.*
 
-5. Deploy the Bot
+__5. Deploy the Bot__
 
 *Shows the deployment process to a cloud platform like Heroku. Includes configuring environment variables, pushing the code to Heroku, and verifying that the bot is live and operational.*
