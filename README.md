@@ -1,18 +1,17 @@
 # Discord-Bot
 
 Objective
-[Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+To develop a functioning and user-friendly Discord bot that helps improve the user's experience and the severity of management through various autonomous features. This project aims to integrate functions such as, but not limited to, role management, custom commands, user interaction, and event management to help create an organized server environment. Through the Discord API, the bot will provide an improved user experience and server administration.
 
 Skills Learned
-[Bullet Points - Remove this afterwards]
 
-Advanced understanding of SIEM concepts and practical application.
-Proficiency in analyzing and interpreting network logs.
-Ability to generate and recognize attack signatures and patterns.
-Enhanced knowledge of network protocols and security vulnerabilities.
-Development of critical thinking and problem-solving skills in cybersecurity.
+Bot Development: Proficiency in creating and managing Discord bots.
+API Integration: Experience with Discord’s API.
+User Interface Design: Designing interactive message elements.
+Automation: Implementing automated server management features.
+Debugging: Identifying and resolving code issues effectively.
+
 Tools Used
 [Bullet Points - Remove this afterwards]
 
