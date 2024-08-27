@@ -36,7 +36,7 @@ __2. Install Dependencies__
 __3. Code the Bot__
 
 ![image](https://github.com/user-attachments/assets/f11990b3-1415-493b-916a-daad0399f8ff)
-![image](https://github.com/user-attachments/assets/0e11a510-d805-493e-8167-bdb1d7a1c49b)
+![image](https://github.com/user-attachments/assets/55554c6e-621d-4bcc-9a3b-2fb645d120c0)
 
 
 __4. Test the Bot__
@@ -45,4 +45,5 @@ __4. Test the Bot__
 
 __5. Deploy the Bot__
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/0ab61b4e-2316-4e0d-9ad9-19a9a5fda623)
+
