@@ -41,8 +41,8 @@ __3. Code the Bot__
 
 __4. Test the Bot__
 
-*Illustrates the bot running in a test Discord server. Demonstrates testing various commands and interactions to ensure they work as expected.*
+![image](https://github.com/user-attachments/assets/b585fa7e-a9a6-4dd7-9e99-e7a4f83b8c7f)
 
 __5. Deploy the Bot__
 
-*Shows the deployment process to a cloud platform like Heroku. Includes configuring environment variables, pushing the code to Heroku, and verifying that the bot is live and operational.*
+![Uploading image.png…]()
