@@ -1,5 +1,5 @@
 
-# PROJECTNAME
+# Discord-Bot
 
 ## Objective
 
