@@ -22,22 +22,22 @@ To develop a functioning and user-friendly Discord bot that helps improve the us
 
 ## Steps
 
-Setup Environment
+1. Setup Environment
 
-This screenshot shows the setup of the development environment, including the installation of Node.js, setting up a new project directory, and initializing it with npm init.
+*This screenshot shows the setup of the development environment, including the installation of Node.js, setting up a new project directory, and initializing it with npm init.*
 
-Install Dependencies
+2. Install Dependencies
 
-Displays the terminal where necessary packages, such as discord.js, are installed using npm. This includes commands like npm install discord.js.
+*Displays the terminal where necessary packages, such as discord.js, are installed using npm. This includes commands like npm install discord.js.*
 
-Code the Bot
+3. Code the Bot
 
-Shows the code editor with the main bot script. This includes setting up the bot client, defining commands, and handling events like messageCreate.
+*Shows the code editor with the main bot script. This includes setting up the bot client, defining commands, and handling events like messageCreate.*
 
-Test the Bot
+4. Test the Bot
 
-Illustrates the bot running in a test Discord server. Demonstrates testing various commands and interactions to ensure they work as expected.
+*Illustrates the bot running in a test Discord server. Demonstrates testing various commands and interactions to ensure they work as expected.*
 
-Deploy the Bot
+5. Deploy the Bot
 
-Shows the deployment process to a cloud platform like Heroku. Includes configuring environment variables, pushing the code to Heroku, and verifying that the bot is live and operational.
+*Shows the deployment process to a cloud platform like Heroku. Includes configuring environment variables, pushing the code to Heroku, and verifying that the bot is live and operational.*
