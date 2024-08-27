@@ -14,11 +14,11 @@ To develop a functioning and user-friendly Discord bot that helps improve the us
 - Debugging: Identifying and resolving code issues effectively.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Discord.js: JavaScript library for interacting with the Discord API.
+- GitHub: Version control and project management.
+- Node.js: JavaScript runtime for running the bot.
+- Visual Studio Code: Code editor for development.
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
