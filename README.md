@@ -26,10 +26,14 @@ To develop a functioning and user-friendly Discord bot that helps improve the us
 
 __1. Setup Environment__
 
+*Ref1: Using command prompt to install the environment*
+
 ![image](https://github.com/user-attachments/assets/5393a831-ed29-444f-8d65-9c3becbdf67a)
 
 
 __2. Install Dependencies__
+
+*Ref2: Using command prompt to install the dependencies*
 
 ![image](https://github.com/user-attachments/assets/3102ba5a-fedf-47f1-bbe9-e598fc3f62fe)
 
@@ -37,15 +41,21 @@ __2. Install Dependencies__
 
 __3. Code the Bot__
 
+*Ref3: Using Visual Studio Code to code the bot*
+
 ![image](https://github.com/user-attachments/assets/f11990b3-1415-493b-916a-daad0399f8ff)
 ![image](https://github.com/user-attachments/assets/55554c6e-621d-4bcc-9a3b-2fb645d120c0)
 
 
 __4. Test the Bot__
 
+*Ref4: Testing the code I just coded with VSC on my discord server to ensure it works properly*
+
 ![image](https://github.com/user-attachments/assets/b585fa7e-a9a6-4dd7-9e99-e7a4f83b8c7f)
 
 __5. Deploy the Bot__
+
+*Ref5: Running the bot through VSC*
 
 ![image](https://github.com/user-attachments/assets/0ab61b4e-2316-4e0d-9ad9-19a9a5fda623)
 
