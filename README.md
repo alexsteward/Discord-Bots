@@ -29,7 +29,9 @@ To develop a functioning and user-friendly Discord bot that helps improve the us
 
 2. Install Dependencies
 
-*Displays the terminal where necessary packages, such as discord.js, are installed using npm. This includes commands like npm install discord.js.*
+![image](https://github.com/user-attachments/assets/3102ba5a-fedf-47f1-bbe9-e598fc3f62fe)
+
+*Note: dotenv is an additional dependency installed if needed*
 
 3. Code the Bot
 
