@@ -22,7 +22,7 @@ To develop functioning and user-friendly Discord bots that helps improve the use
 
 ### Bot List
 
-1. **<a href="https://github.com/alexsteward/Discord-Bot/tree/main">Bot 1</a>|** - [Description of what Bot 1 does]
+1. **<a href="https://github.com/alexsteward/Discord-Bots/tree/main/bot-1">Bot 1</a>** - [Description of what Bot 1 does]
 2. **Bot 2** - [Description of what Bot 2 does]
 3. **Bot 3** - [Description of what Bot 3 does]
 
