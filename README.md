@@ -20,7 +20,7 @@ To develop functioning and user-friendly Discord bots that helps improve the use
 - Node.js: JavaScript runtime for running the bot.
 - Visual Studio Code: Code editor for development.
 
-## Steps
+## Steps To Setup a Bot
 
 *Note: This is setup using Visual Studio Code*
 
