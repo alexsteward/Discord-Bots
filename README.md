@@ -22,7 +22,7 @@ To develop functioning and user-friendly Discord bots that helps improve the use
 
 ### Bot List
 
-1. **<a href="https://github.com/alexsteward/Discord-Bots/tree/main/bot-1">Bot 1</a>** - My first bot designed to experiment with Discord Features. Features of the bot include creating message embeds, assigning roles to users, purging messages, and opening "support" channels for users to communicate with staff.
+1. **<a href="https://github.com/alexsteward/Discord-Bots/tree/main/bot-1">Bot-1</a>** - My first bot designed to experiment with Discord Features. Features of the bot include creating message embeds, assigning roles to users, purging messages, and opening "support" channels for users to communicate with staff.
 
 2. **Bot 2** - [Currently in development]
 
