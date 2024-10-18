@@ -3,7 +3,7 @@
 
 ## Objective
 
-To develop a functioning and user-friendly Discord bot that helps improve the user's experience and the severity of management through various autonomous features. This project aims to integrate functions such as, but not limited to, role management, custom commands, user interaction, and event management to help create an organized server environment. Through the Discord API, the bot will provide an improved user experience and server administration.
+To develop functioning and user-friendly Discord bots that helps improve the user's experience and the severity of management through various autonomous features. This project aims to integrate functions such as, but not limited to, role management, custom commands, user interaction, and event management to help create an organized server environment. Through the Discord API, the bots will provide an improved user experience and server administration.
 
 ### Skills Learned
 
