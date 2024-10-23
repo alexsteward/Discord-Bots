@@ -18,12 +18,12 @@ intents.voice_states = True
 bot = commands.Bot(command_prefix='?', intents=intents)  
 
 # CHANNEL IDS
-CHANNEL_ID = 1294828568509022218  # Your channel ID
+CHANNEL_ID =   # Your channel ID
 
 
 # Spotify API setup
-spotify_client_id = '57f774904435468ca9a3e7aca06398a5'  # Replace with your Spotify client ID
-spotify_client_secret = 'c1af00eff5474e778df00ca699f9c1b5'  # Replace with your Spotify client secret
+spotify_client_id = ''  # Replace with your Spotify client ID
+spotify_client_secret = ''  # Replace with your Spotify client secret
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=spotify_client_id,
                                                            client_secret=spotify_client_secret))
 
@@ -39,13 +39,13 @@ async def on_ready():
 
 
 # Variables:
-current_track_start_time = None  # Global variable to store track start time
-current_track_duration = 0  # 
-music_queue = []  # Initialize the music queue
-voice_client = None  # Store the voice client
+current_track_start_time = None  
+current_track_duration = 0  
+music_queue = []  
+voice_client = None  
 is_looping = False
 is_shuffling = False
-current_playing_track = None  # Variable to store the currently playing track
+current_playing_track = None  
 global_volume = 100
 
 # -------------------------------------------------------------------------------------- #
@@ -476,6 +476,6 @@ async def current_volume(ctx):
 
 
 
-TOKEN = 'MTI5NzU5MjEwMjczMzA5MDgyNg.Gl-wuL.1H3N4RJF3iv4_y34LOKPXmhzhask0bwySfk8AA'  # Replace with your actual bot token
+TOKEN = ''  # Replace with your actual bot token
 bot.run(TOKEN)
 
