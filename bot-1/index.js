@@ -57,7 +57,6 @@ client.on('messageCreate', async message => {
             const collector = sentMessage.createMessageComponentCollector({ filter, time: 15000 });
 
             collector.on('collect', async interaction => {
-                // Handle role assignment based on custom ID
                 switch (interaction.customId) {
                     case 'role_europe':
                         await handleRole(interaction, 'Europe');
@@ -80,7 +79,7 @@ client.on('messageCreate', async message => {
                 if (collected.size === 0) {
                     sentMessage.edit({ embeds: [embed.setDescription('`Region Roles` session has timed out. Please run the command again to select roles.')] });
                 } else {
-                    sentMessage.edit({ components: [] }); // Remove buttons after interaction
+                    sentMessage.edit({ components: [] }); 
                 }
             });
 
@@ -94,19 +93,16 @@ async function handleRole(interaction, roleName) {
     const member = interaction.member;
     const guild = interaction.guild;
 
-    // Get the role by name
     const role = guild.roles.cache.find(role => role.name === roleName);
 
     if (!role) {
         return interaction.reply({ content: `Role ${roleName} not found!`, ephemeral: true });
     }
 
-    // Check if the member already has the role
     if (member.roles.cache.has(role.id)) {
         return interaction.reply({ content: `You already have the ${roleName} role!`, ephemeral: true });
     }
 
-    // Add the role to the member
     try {
         await member.roles.add(role);
         interaction.reply({ content: `You've been given the ${roleName} role!`, ephemeral: true });
@@ -144,7 +140,6 @@ client.on('messageCreate', async message => {
                     .setStyle('PRIMARY')
             );
 
-        // Send the embed message with buttons
         await message.channel.send({ embeds: [embed], components: [row] })
             .catch(err => {
                 console.error('Error sending message:', err);
@@ -167,13 +162,13 @@ client.on('interactionCreate', async interaction => {
 
     switch (interaction.customId) {
         case 'pronoun_he_him':
-            roleID = '1259282032270377050'; // Replace with actual role ID for He/Him
+            roleID = '1259282032270377050'; 
             break;
         case 'pronoun_she_her':
-            roleID = '1259282060585992315'; // Replace with actual role ID for She/Her
+            roleID = '1259282060585992315'; 
             break;
         case 'pronoun_they_them':
-            roleID = '1259282111974736004'; // Replace with actual role ID for They/Them
+            roleID = '1259282111974736004'; 
             break;
         default:
             interaction.reply({ content: "Unknown pronoun selection.", ephemeral: true });
@@ -219,7 +214,6 @@ client.on('messageCreate', async message => {
                     .setStyle('PRIMARY')
             );
 
-        // Send the embed message with buttons
         await message.channel.send({ embeds: [embed], components: [row] })
             .catch(err => {
                 console.error('Error sending message:', err);
@@ -242,13 +236,13 @@ client.on('interactionCreate', async interaction => {
 
     switch (interaction.customId) {
         case 'notification_events':
-            roleID = '1259249943005106237'; // Replace with actual role ID for Events
+            roleID = '1259249943005106237'; 
             break;
         case 'notification_crafter':
-            roleID = '1259249968527442032'; // Replace with actual role ID for Crafter
+            roleID = '1259249968527442032'; 
             break;
         case 'notification_gatherer':
-            roleID = '1259282325703884870'; // Replace with actual role ID for Gatherer
+            roleID = '1259282325703884870'; 
             break;
         default:
             interaction.reply({ content: "Unknown notification selection.", ephemeral: true });
@@ -319,11 +313,10 @@ _  _
 
 
 client.on('messageCreate', async (message) => {
-    if (message.content.toLowerCase() === '!apply') { // Command to trigger application process
+    if (message.content.toLowerCase() === '!apply') { 
         const member = message.member;
         const guild = message.guild;
 
-        // Check if the member has the necessary roles to create the application channel
         const requiredRoles = ['Emperor', 'Archduke', 'Justiciar'];
         const roles = guild.roles.cache.filter(role => requiredRoles.includes(role.name));
 
@@ -332,9 +325,9 @@ client.on('messageCreate', async (message) => {
         }
 
         try {
-            // Create a new channel for the application
+          
             const channelName = `app-${member.user.username}`;
-            const category = guild.channels.cache.find(channel => channel.type === 'GUILD_CATEGORY' && channel.name === '⎯⎯⎯⎯⎯⎯⎯⎯[ Tickets ]⎯⎯⎯⎯⎯⎯⎯⎯⎯'); // Adjust category name as needed
+            const category = guild.channels.cache.find(channel => channel.type === 'GUILD_CATEGORY' && channel.name === '⎯⎯⎯⎯⎯⎯⎯⎯[ Tickets ]⎯⎯⎯⎯⎯⎯⎯⎯⎯'); 
             if (!category) {
                 throw new Error('Category not found.');
             }
@@ -363,10 +356,8 @@ client.on('messageCreate', async (message) => {
                 permissionOverwrites,
             });
 
-            // Send application questions in the new channel
             await applicationChannel.send(`**Application Form for ${member.user.username}**\n\nPlease answer the following questions:\n\n1. In-Game Username:\n2. Country and Timezone:\n3. Age (optional):\n4. Main class and level?:\n5. How often, and for how long do you usually play on Wynncraft?:\n6. What do you like doing in Wynncraft?:\n\n- How can you contribute to the guild?:\n- Previous guild affiliations, if any:\n- Interested in warring? (optional):\n- Were you referred to the guild? If you were, who was it? (optional)\n- Additional information (optional):\n`);
 
-            // Notify user about the application channel
             await member.send(`Your application channel (${applicationChannel}) has been created. Please check it to proceed with your application.`);
 
         } catch (error) {
@@ -380,29 +371,23 @@ client.on('messageCreate', async (message) => {
 
 client.on('messageCreate', async message => {
     if (message.content.startsWith('!purge')) {
-        // Check if the user has permission to manage messages
         if (!message.member.permissions.has('MANAGE_MESSAGES')) {
             return message.reply('You do not have permission to use this command.');
         }
 
-        // Extract the number of messages to delete
         const args = message.content.split(' ');
         if (args.length !== 2 || isNaN(args[1])) {
             return message.reply('Invalid command usage. Please use !purge [number]');
         }
         const numToDelete = parseInt(args[1]);
 
-        // Check if the number of messages to delete is within a reasonable range
         if (numToDelete <= 0 || numToDelete > 100) {
             return message.reply('You can only delete between 1 and 100 messages at a time.');
         }
 
         try {
-            // Fetch messages and delete them
             const fetchedMessages = await message.channel.messages.fetch({ limit: numToDelete + 1 });
             await message.channel.bulkDelete(fetchedMessages, true);
-
-            // Success message
             const successMessage = await message.channel.send(`Successfully deleted ${fetchedMessages.size - 1} messages.`);
             setTimeout(() => successMessage.delete(), 3000); // Delete the success message after 3 seconds
         } catch (error) {
@@ -490,8 +475,6 @@ client.on('messageCreate', async message => {
             });
     }
 });
-
-
 
 client.login(token);
 
